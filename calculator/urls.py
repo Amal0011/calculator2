@@ -28,5 +28,5 @@ urlpatterns = [
     path('exponent/',views.ExponentView.as_view(),name="exponent"),
     path('login/',views.LoginView.as_view(),name="login"),
     path('login2/',views.Login2View.as_view(),name="login2"),
-    path('',views.HomeView.as_view(),name="home"),
+    path('',views.HomeView.as_view(),name="index"),
 ]
